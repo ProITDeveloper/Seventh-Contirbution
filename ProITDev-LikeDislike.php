@@ -28,3 +28,5 @@ function proitdev_publish_send_mail(){
 	wp_mail($to, $subject, $messagge, $header);
 }
 add_action('publish_post', 'proitdev_publish_send_mail');
+
+<--This is comment-->
